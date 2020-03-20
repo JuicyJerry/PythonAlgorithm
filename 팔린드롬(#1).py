@@ -4,10 +4,14 @@
 
 def is_palindrome(word):
     list_word = list(word)
+    another_list_word = list(word)
+    another_list_word.reverse()
 
-    count = list_word[]
-    for i in list_word:
-        if i
+    if list_word == another_list_word:
+        return True
+    elif list_word != another_list_word:
+        return False
+
 
 
 # 테스트
@@ -16,8 +20,3 @@ print(is_palindrome("stars"))
 print(is_palindrome("토마토"))
 print(is_palindrome("kayak"))
 print(is_palindrome("hello"))
-
-
-        #if list_word[count] == list_word[count]:
-         #   print(True)
-        # another_count 가 안 먹혀?
